@@ -5,6 +5,7 @@
 对应的记录值就是github上的仓库名chenQD123.github.io·然后到github的pages管理页面更新阿里云的域名地址
 # 新增博客
 在source/_post文件夹新增markdown文件即可，但是要做好分类，如以下：
+```javaScript
 ---
 categories: 
     - 杂记
@@ -16,6 +17,7 @@ tag:
 quicklink: true
 ---
 还有使用<!--more-->只展示部分文章
+```
 # 部署编辑后的博客
 hexo clean
 hexo -g -d
